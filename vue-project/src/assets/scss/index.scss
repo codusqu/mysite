@@ -1,0 +1,8 @@
+// @import "./variables";
+// @import "./mixins";
+// @import "./header";
+
+// @forward는 다른 SCSS 파일의 스타일을 정리하고 재공유할 때 사용됩니다
+@forward "./common";
+@forward "./header";
+@forward "./variables";

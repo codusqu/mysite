@@ -1,0 +1,25 @@
+:root {
+  --c-light-text: #0B0B12;
+  --c-light-border: #C7C7D6;
+  --c-light-backgr: #efefef;
+
+  --c-dark-text: #ffffff;
+  --c-dark-border: #7A9CFF;
+  --c-dark-backgr: #363657;
+}
+
+
+
+:root {
+  --color-text: var(--c-light-text);
+  --color-border: var(--c-light-border);
+  --color-backgr: var(--c-light-backgr);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: var(--c-dark-text);
+    --color-border: var(--c-dark-border);
+    --color-backgr: var(--c-dark-backgr);
+  }
+}
